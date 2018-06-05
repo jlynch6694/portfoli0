@@ -1,0 +1,40 @@
+.first {
+  text-shadow: 2px 2px 5px red;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  border-style: ridge;
+}
+
+.second {
+  color: black;
+  background-color: white;
+  font-size: 48px;
+  border-style: dotted;
+}
+
+/* Create two equal columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+}
+
+body {
+  background-image: url("../images/bigfoot.jpg");
+}
+
+p {
+  font-family: fantasy;
+  font-size: 14px;
+}
+
+
+
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
